@@ -12,10 +12,10 @@ DATA_TYPE=4; %B;
 DDR_BW=77; % GB/s
 freq=250; %MHz
 
-Exe_min=ones(1,NUM_layer)*1e20;
 Exe_total=1e30;
 for Tn=1:NUM_DSP
     for Tm=1:floor(NUM_DSP/Tn)
+        Exe_min=ones(1,NUM_layer)*1e20;
         flag=0;
         cnt=0;
         for i=1:NUM_layer
@@ -43,13 +43,15 @@ for Tn=1:NUM_DSP
                             Exe_cyc=max(Comm_cyc,Comp_cyc);
                             if(Exe_cyc<Exe_min(1,i))
                                 Exe_min(1,i)=Exe_cyc;
-                                cnt=cnt+1;
-                                if(cnt==NUM_layer)
-                                    flag=1;
-                                end
                             end
                         end
                     end
+                end
+            end
+            if(Exe_min(1,i)~=1e20)
+                cnt=cnt+1;
+                if(cnt==NUM_layer)
+                    flag=1;
                 end
             end
         end
