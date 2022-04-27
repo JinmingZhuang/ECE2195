@@ -32,7 +32,9 @@
  
  # Subtask 2 Establish an analytical model for GridDehazeNet
  
-   We establish an analytical model to implement GridDehazeNet on U200 FPGA board. To receive the best selection of Tm and Tn for the whole network, the best of Tr, Tc for each Convolution layer, and the estimate latency for GridDehazeNet with the pre-processing module, we run the following instruction:
+   We establish an analytical model to implement GridDehazeNet on U200 FPGA board. The model and the results are in the FPGAmodelT1 repo.
+   
+   To receive the best selection of Tm and Tn for the whole network, the best of Tr, Tc for each Convolution layer, and the estimate latency for GridDehazeNet with the pre-processing module, we run the following instruction:
    
     nohup python3 modelfpga.py > modelfpga.out 2>&1 &
    
