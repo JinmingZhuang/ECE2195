@@ -1,0 +1,1116 @@
+Thu Apr 14 09:34:31 EDT 2022
+--- Hyper-parameters for training ---
+learning_rate: 0.001
+crop_size: [240, 240]
+train_batch_size: 16
+val_batch_size: 8
+network_height: 3
+network_width: 6
+num_dense_layer: 4
+growth_rate: 16
+lambda_loss: 0.04
+category: indoor
+<generator object Module.parameters at 0x147d1f6f0550>
+--- no weight loaded ---
+Total_params: 958051
+old_val_psnr: 7.19, old_val_ssim: 0.1278
+Learning rate sets to 0.001.
+Epoch: 0, Iteration: 0
+Epoch: 0, Iteration: 100
+Epoch: 0, Iteration: 200
+Epoch: 0, Iteration: 300
+Epoch: 0, Iteration: 400
+Epoch: 0, Iteration: 500
+Epoch: 0, Iteration: 600
+Epoch: 0, Iteration: 700
+Epoch: 0, Iteration: 800
+(533s) Epoch [1/100], Train_PSNR:19.67, Val_PSNR:19.99, Val_SSIM:0.8695
+Learning rate sets to 0.001.
+Epoch: 1, Iteration: 0
+Epoch: 1, Iteration: 100
+Epoch: 1, Iteration: 200
+Epoch: 1, Iteration: 300
+Epoch: 1, Iteration: 400
+Epoch: 1, Iteration: 500
+Epoch: 1, Iteration: 600
+Epoch: 1, Iteration: 700
+Epoch: 1, Iteration: 800
+(539s) Epoch [2/100], Train_PSNR:22.01, Val_PSNR:22.77, Val_SSIM:0.9070
+Learning rate sets to 0.001.
+Epoch: 2, Iteration: 0
+Epoch: 2, Iteration: 100
+Epoch: 2, Iteration: 200
+Epoch: 2, Iteration: 300
+Epoch: 2, Iteration: 400
+Epoch: 2, Iteration: 500
+Epoch: 2, Iteration: 600
+Epoch: 2, Iteration: 700
+Epoch: 2, Iteration: 800
+(535s) Epoch [3/100], Train_PSNR:23.21, Val_PSNR:24.21, Val_SSIM:0.9122
+Learning rate sets to 0.001.
+Epoch: 3, Iteration: 0
+Epoch: 3, Iteration: 100
+Epoch: 3, Iteration: 200
+Epoch: 3, Iteration: 300
+Epoch: 3, Iteration: 400
+Epoch: 3, Iteration: 500
+Epoch: 3, Iteration: 600
+Epoch: 3, Iteration: 700
+Epoch: 3, Iteration: 800
+(534s) Epoch [4/100], Train_PSNR:24.07, Val_PSNR:24.50, Val_SSIM:0.9359
+Learning rate sets to 0.001.
+Epoch: 4, Iteration: 0
+Epoch: 4, Iteration: 100
+Epoch: 4, Iteration: 200
+Epoch: 4, Iteration: 300
+Epoch: 4, Iteration: 400
+Epoch: 4, Iteration: 500
+Epoch: 4, Iteration: 600
+Epoch: 4, Iteration: 700
+Epoch: 4, Iteration: 800
+(538s) Epoch [5/100], Train_PSNR:24.44, Val_PSNR:22.41, Val_SSIM:0.9232
+Learning rate sets to 0.001.
+Epoch: 5, Iteration: 0
+Epoch: 5, Iteration: 100
+Epoch: 5, Iteration: 200
+Epoch: 5, Iteration: 300
+Epoch: 5, Iteration: 400
+Epoch: 5, Iteration: 500
+Epoch: 5, Iteration: 600
+Epoch: 5, Iteration: 700
+Epoch: 5, Iteration: 800
+(606s) Epoch [6/100], Train_PSNR:24.84, Val_PSNR:25.06, Val_SSIM:0.9384
+Learning rate sets to 0.001.
+Epoch: 6, Iteration: 0
+Epoch: 6, Iteration: 100
+Epoch: 6, Iteration: 200
+Epoch: 6, Iteration: 300
+Epoch: 6, Iteration: 400
+Epoch: 6, Iteration: 500
+Epoch: 6, Iteration: 600
+Epoch: 6, Iteration: 700
+Epoch: 6, Iteration: 800
+(529s) Epoch [7/100], Train_PSNR:25.16, Val_PSNR:22.09, Val_SSIM:0.9275
+Learning rate sets to 0.001.
+Epoch: 7, Iteration: 0
+Epoch: 7, Iteration: 100
+Epoch: 7, Iteration: 200
+Epoch: 7, Iteration: 300
+Epoch: 7, Iteration: 400
+Epoch: 7, Iteration: 500
+Epoch: 7, Iteration: 600
+Epoch: 7, Iteration: 700
+Epoch: 7, Iteration: 800
+(537s) Epoch [8/100], Train_PSNR:25.64, Val_PSNR:23.93, Val_SSIM:0.9182
+Learning rate sets to 0.001.
+Epoch: 8, Iteration: 0
+Epoch: 8, Iteration: 100
+Epoch: 8, Iteration: 200
+Epoch: 8, Iteration: 300
+Epoch: 8, Iteration: 400
+Epoch: 8, Iteration: 500
+Epoch: 8, Iteration: 600
+Epoch: 8, Iteration: 700
+Epoch: 8, Iteration: 800
+(532s) Epoch [9/100], Train_PSNR:25.89, Val_PSNR:25.39, Val_SSIM:0.9444
+Learning rate sets to 0.001.
+Epoch: 9, Iteration: 0
+Epoch: 9, Iteration: 100
+Epoch: 9, Iteration: 200
+Epoch: 9, Iteration: 300
+Epoch: 9, Iteration: 400
+Epoch: 9, Iteration: 500
+Epoch: 9, Iteration: 600
+Epoch: 9, Iteration: 700
+Epoch: 9, Iteration: 800
+(532s) Epoch [10/100], Train_PSNR:26.29, Val_PSNR:26.31, Val_SSIM:0.9522
+Learning rate sets to 0.001.
+Epoch: 10, Iteration: 0
+Epoch: 10, Iteration: 100
+Epoch: 10, Iteration: 200
+Epoch: 10, Iteration: 300
+Epoch: 10, Iteration: 400
+Epoch: 10, Iteration: 500
+Epoch: 10, Iteration: 600
+Epoch: 10, Iteration: 700
+Epoch: 10, Iteration: 800
+(538s) Epoch [11/100], Train_PSNR:26.44, Val_PSNR:25.95, Val_SSIM:0.9475
+Learning rate sets to 0.001.
+Epoch: 11, Iteration: 0
+Epoch: 11, Iteration: 100
+Epoch: 11, Iteration: 200
+Epoch: 11, Iteration: 300
+Epoch: 11, Iteration: 400
+Epoch: 11, Iteration: 500
+Epoch: 11, Iteration: 600
+Epoch: 11, Iteration: 700
+Epoch: 11, Iteration: 800
+(536s) Epoch [12/100], Train_PSNR:26.77, Val_PSNR:24.72, Val_SSIM:0.9490
+Learning rate sets to 0.001.
+Epoch: 12, Iteration: 0
+Epoch: 12, Iteration: 100
+Epoch: 12, Iteration: 200
+Epoch: 12, Iteration: 300
+Epoch: 12, Iteration: 400
+Epoch: 12, Iteration: 500
+Epoch: 12, Iteration: 600
+Epoch: 12, Iteration: 700
+Epoch: 12, Iteration: 800
+(533s) Epoch [13/100], Train_PSNR:26.83, Val_PSNR:27.49, Val_SSIM:0.9617
+Learning rate sets to 0.001.
+Epoch: 13, Iteration: 0
+Epoch: 13, Iteration: 100
+Epoch: 13, Iteration: 200
+Epoch: 13, Iteration: 300
+Epoch: 13, Iteration: 400
+Epoch: 13, Iteration: 500
+Epoch: 13, Iteration: 600
+Epoch: 13, Iteration: 700
+Epoch: 13, Iteration: 800
+(535s) Epoch [14/100], Train_PSNR:27.37, Val_PSNR:26.10, Val_SSIM:0.9472
+Learning rate sets to 0.001.
+Epoch: 14, Iteration: 0
+Epoch: 14, Iteration: 100
+Epoch: 14, Iteration: 200
+Epoch: 14, Iteration: 300
+Epoch: 14, Iteration: 400
+Epoch: 14, Iteration: 500
+Epoch: 14, Iteration: 600
+Epoch: 14, Iteration: 700
+Epoch: 14, Iteration: 800
+(533s) Epoch [15/100], Train_PSNR:27.60, Val_PSNR:26.78, Val_SSIM:0.9501
+Learning rate sets to 0.001.
+Epoch: 15, Iteration: 0
+Epoch: 15, Iteration: 100
+Epoch: 15, Iteration: 200
+Epoch: 15, Iteration: 300
+Epoch: 15, Iteration: 400
+Epoch: 15, Iteration: 500
+Epoch: 15, Iteration: 600
+Epoch: 15, Iteration: 700
+Epoch: 15, Iteration: 800
+(535s) Epoch [16/100], Train_PSNR:27.52, Val_PSNR:25.77, Val_SSIM:0.9528
+Learning rate sets to 0.001.
+Epoch: 16, Iteration: 0
+Epoch: 16, Iteration: 100
+Epoch: 16, Iteration: 200
+Epoch: 16, Iteration: 300
+Epoch: 16, Iteration: 400
+Epoch: 16, Iteration: 500
+Epoch: 16, Iteration: 600
+Epoch: 16, Iteration: 700
+Epoch: 16, Iteration: 800
+(533s) Epoch [17/100], Train_PSNR:27.78, Val_PSNR:24.29, Val_SSIM:0.9478
+Learning rate sets to 0.001.
+Epoch: 17, Iteration: 0
+Epoch: 17, Iteration: 100
+Epoch: 17, Iteration: 200
+Epoch: 17, Iteration: 300
+Epoch: 17, Iteration: 400
+Epoch: 17, Iteration: 500
+Epoch: 17, Iteration: 600
+Epoch: 17, Iteration: 700
+Epoch: 17, Iteration: 800
+(529s) Epoch [18/100], Train_PSNR:27.81, Val_PSNR:23.76, Val_SSIM:0.9461
+Learning rate sets to 0.001.
+Epoch: 18, Iteration: 0
+Epoch: 18, Iteration: 100
+Epoch: 18, Iteration: 200
+Epoch: 18, Iteration: 300
+Epoch: 18, Iteration: 400
+Epoch: 18, Iteration: 500
+Epoch: 18, Iteration: 600
+Epoch: 18, Iteration: 700
+Epoch: 18, Iteration: 800
+(514s) Epoch [19/100], Train_PSNR:28.01, Val_PSNR:27.29, Val_SSIM:0.9630
+Learning rate sets to 0.001.
+Epoch: 19, Iteration: 0
+Epoch: 19, Iteration: 100
+Epoch: 19, Iteration: 200
+Epoch: 19, Iteration: 300
+Epoch: 19, Iteration: 400
+Epoch: 19, Iteration: 500
+Epoch: 19, Iteration: 600
+Epoch: 19, Iteration: 700
+Epoch: 19, Iteration: 800
+(558s) Epoch [20/100], Train_PSNR:28.11, Val_PSNR:24.90, Val_SSIM:0.9371
+Learning rate sets to 0.0005.
+Epoch: 20, Iteration: 0
+Epoch: 20, Iteration: 100
+Epoch: 20, Iteration: 200
+Epoch: 20, Iteration: 300
+Epoch: 20, Iteration: 400
+Epoch: 20, Iteration: 500
+Epoch: 20, Iteration: 600
+Epoch: 20, Iteration: 700
+Epoch: 20, Iteration: 800
+(518s) Epoch [21/100], Train_PSNR:29.34, Val_PSNR:26.99, Val_SSIM:0.9656
+Learning rate sets to 0.0005.
+Epoch: 21, Iteration: 0
+Epoch: 21, Iteration: 100
+Epoch: 21, Iteration: 200
+Epoch: 21, Iteration: 300
+Epoch: 21, Iteration: 400
+Epoch: 21, Iteration: 500
+Epoch: 21, Iteration: 600
+Epoch: 21, Iteration: 700
+Epoch: 21, Iteration: 800
+(521s) Epoch [22/100], Train_PSNR:29.35, Val_PSNR:28.77, Val_SSIM:0.9683
+Learning rate sets to 0.0005.
+Epoch: 22, Iteration: 0
+Epoch: 22, Iteration: 100
+Epoch: 22, Iteration: 200
+Epoch: 22, Iteration: 300
+Epoch: 22, Iteration: 400
+Epoch: 22, Iteration: 500
+Epoch: 22, Iteration: 600
+Epoch: 22, Iteration: 700
+Epoch: 22, Iteration: 800
+(528s) Epoch [23/100], Train_PSNR:29.39, Val_PSNR:28.46, Val_SSIM:0.9691
+Learning rate sets to 0.0005.
+Epoch: 23, Iteration: 0
+Epoch: 23, Iteration: 100
+Epoch: 23, Iteration: 200
+Epoch: 23, Iteration: 300
+Epoch: 23, Iteration: 400
+Epoch: 23, Iteration: 500
+Epoch: 23, Iteration: 600
+Epoch: 23, Iteration: 700
+Epoch: 23, Iteration: 800
+(521s) Epoch [24/100], Train_PSNR:29.58, Val_PSNR:28.77, Val_SSIM:0.9727
+Learning rate sets to 0.0005.
+Epoch: 24, Iteration: 0
+Epoch: 24, Iteration: 100
+Epoch: 24, Iteration: 200
+Epoch: 24, Iteration: 300
+Epoch: 24, Iteration: 400
+Epoch: 24, Iteration: 500
+Epoch: 24, Iteration: 600
+Epoch: 24, Iteration: 700
+Epoch: 24, Iteration: 800
+(515s) Epoch [25/100], Train_PSNR:29.62, Val_PSNR:25.59, Val_SSIM:0.9615
+Learning rate sets to 0.0005.
+Epoch: 25, Iteration: 0
+Epoch: 25, Iteration: 100
+Epoch: 25, Iteration: 200
+Epoch: 25, Iteration: 300
+Epoch: 25, Iteration: 400
+Epoch: 25, Iteration: 500
+Epoch: 25, Iteration: 600
+Epoch: 25, Iteration: 700
+Epoch: 25, Iteration: 800
+(525s) Epoch [26/100], Train_PSNR:29.47, Val_PSNR:28.49, Val_SSIM:0.9722
+Learning rate sets to 0.0005.
+Epoch: 26, Iteration: 0
+Epoch: 26, Iteration: 100
+Epoch: 26, Iteration: 200
+Epoch: 26, Iteration: 300
+Epoch: 26, Iteration: 400
+Epoch: 26, Iteration: 500
+Epoch: 26, Iteration: 600
+Epoch: 26, Iteration: 700
+Epoch: 26, Iteration: 800
+(522s) Epoch [27/100], Train_PSNR:29.78, Val_PSNR:27.08, Val_SSIM:0.9624
+Learning rate sets to 0.0005.
+Epoch: 27, Iteration: 0
+Epoch: 27, Iteration: 100
+Epoch: 27, Iteration: 200
+Epoch: 27, Iteration: 300
+Epoch: 27, Iteration: 400
+Epoch: 27, Iteration: 500
+Epoch: 27, Iteration: 600
+Epoch: 27, Iteration: 700
+Epoch: 27, Iteration: 800
+(530s) Epoch [28/100], Train_PSNR:29.85, Val_PSNR:27.83, Val_SSIM:0.9703
+Learning rate sets to 0.0005.
+Epoch: 28, Iteration: 0
+Epoch: 28, Iteration: 100
+Epoch: 28, Iteration: 200
+Epoch: 28, Iteration: 300
+Epoch: 28, Iteration: 400
+Epoch: 28, Iteration: 500
+Epoch: 28, Iteration: 600
+Epoch: 28, Iteration: 700
+Epoch: 28, Iteration: 800
+(525s) Epoch [29/100], Train_PSNR:30.05, Val_PSNR:28.92, Val_SSIM:0.9716
+Learning rate sets to 0.0005.
+Epoch: 29, Iteration: 0
+Epoch: 29, Iteration: 100
+Epoch: 29, Iteration: 200
+Epoch: 29, Iteration: 300
+Epoch: 29, Iteration: 400
+Epoch: 29, Iteration: 500
+Epoch: 29, Iteration: 600
+Epoch: 29, Iteration: 700
+Epoch: 29, Iteration: 800
+(618s) Epoch [30/100], Train_PSNR:30.00, Val_PSNR:29.25, Val_SSIM:0.9691
+Learning rate sets to 0.0005.
+Epoch: 30, Iteration: 0
+Epoch: 30, Iteration: 100
+Epoch: 30, Iteration: 200
+Epoch: 30, Iteration: 300
+Epoch: 30, Iteration: 400
+Epoch: 30, Iteration: 500
+Epoch: 30, Iteration: 600
+Epoch: 30, Iteration: 700
+Epoch: 30, Iteration: 800
+(524s) Epoch [31/100], Train_PSNR:29.96, Val_PSNR:28.18, Val_SSIM:0.9663
+Learning rate sets to 0.0005.
+Epoch: 31, Iteration: 0
+Epoch: 31, Iteration: 100
+Epoch: 31, Iteration: 200
+Epoch: 31, Iteration: 300
+Epoch: 31, Iteration: 400
+Epoch: 31, Iteration: 500
+Epoch: 31, Iteration: 600
+Epoch: 31, Iteration: 700
+Epoch: 31, Iteration: 800
+(524s) Epoch [32/100], Train_PSNR:30.15, Val_PSNR:24.74, Val_SSIM:0.9619
+Learning rate sets to 0.0005.
+Epoch: 32, Iteration: 0
+Epoch: 32, Iteration: 100
+Epoch: 32, Iteration: 200
+Epoch: 32, Iteration: 300
+Epoch: 32, Iteration: 400
+Epoch: 32, Iteration: 500
+Epoch: 32, Iteration: 600
+Epoch: 32, Iteration: 700
+Epoch: 32, Iteration: 800
+(518s) Epoch [33/100], Train_PSNR:30.02, Val_PSNR:28.95, Val_SSIM:0.9735
+Learning rate sets to 0.0005.
+Epoch: 33, Iteration: 0
+Epoch: 33, Iteration: 100
+Epoch: 33, Iteration: 200
+Epoch: 33, Iteration: 300
+Epoch: 33, Iteration: 400
+Epoch: 33, Iteration: 500
+Epoch: 33, Iteration: 600
+Epoch: 33, Iteration: 700
+Epoch: 33, Iteration: 800
+(602s) Epoch [34/100], Train_PSNR:30.27, Val_PSNR:29.44, Val_SSIM:0.9729
+Learning rate sets to 0.0005.
+Epoch: 34, Iteration: 0
+Epoch: 34, Iteration: 100
+Epoch: 34, Iteration: 200
+Epoch: 34, Iteration: 300
+Epoch: 34, Iteration: 400
+Epoch: 34, Iteration: 500
+Epoch: 34, Iteration: 600
+Epoch: 34, Iteration: 700
+Epoch: 34, Iteration: 800
+(538s) Epoch [35/100], Train_PSNR:30.24, Val_PSNR:27.47, Val_SSIM:0.9651
+Learning rate sets to 0.0005.
+Epoch: 35, Iteration: 0
+Epoch: 35, Iteration: 100
+Epoch: 35, Iteration: 200
+Epoch: 35, Iteration: 300
+Epoch: 35, Iteration: 400
+Epoch: 35, Iteration: 500
+Epoch: 35, Iteration: 600
+Epoch: 35, Iteration: 700
+Epoch: 35, Iteration: 800
+(525s) Epoch [36/100], Train_PSNR:30.50, Val_PSNR:28.14, Val_SSIM:0.9696
+Learning rate sets to 0.0005.
+Epoch: 36, Iteration: 0
+Epoch: 36, Iteration: 100
+Epoch: 36, Iteration: 200
+Epoch: 36, Iteration: 300
+Epoch: 36, Iteration: 400
+Epoch: 36, Iteration: 500
+Epoch: 36, Iteration: 600
+Epoch: 36, Iteration: 700
+Epoch: 36, Iteration: 800
+(519s) Epoch [37/100], Train_PSNR:30.40, Val_PSNR:28.02, Val_SSIM:0.9645
+Learning rate sets to 0.0005.
+Epoch: 37, Iteration: 0
+Epoch: 37, Iteration: 100
+Epoch: 37, Iteration: 200
+Epoch: 37, Iteration: 300
+Epoch: 37, Iteration: 400
+Epoch: 37, Iteration: 500
+Epoch: 37, Iteration: 600
+Epoch: 37, Iteration: 700
+Epoch: 37, Iteration: 800
+(547s) Epoch [38/100], Train_PSNR:30.57, Val_PSNR:29.42, Val_SSIM:0.9765
+Learning rate sets to 0.0005.
+Epoch: 38, Iteration: 0
+Epoch: 38, Iteration: 100
+Epoch: 38, Iteration: 200
+Epoch: 38, Iteration: 300
+Epoch: 38, Iteration: 400
+Epoch: 38, Iteration: 500
+Epoch: 38, Iteration: 600
+Epoch: 38, Iteration: 700
+Epoch: 38, Iteration: 800
+(699s) Epoch [39/100], Train_PSNR:30.62, Val_PSNR:30.21, Val_SSIM:0.9777
+Learning rate sets to 0.0005.
+Epoch: 39, Iteration: 0
+Epoch: 39, Iteration: 100
+Epoch: 39, Iteration: 200
+Epoch: 39, Iteration: 300
+Epoch: 39, Iteration: 400
+Epoch: 39, Iteration: 500
+Epoch: 39, Iteration: 600
+Epoch: 39, Iteration: 700
+Epoch: 39, Iteration: 800
+(521s) Epoch [40/100], Train_PSNR:30.70, Val_PSNR:30.34, Val_SSIM:0.9737
+Learning rate sets to 0.00025.
+Epoch: 40, Iteration: 0
+Epoch: 40, Iteration: 100
+Epoch: 40, Iteration: 200
+Epoch: 40, Iteration: 300
+Epoch: 40, Iteration: 400
+Epoch: 40, Iteration: 500
+Epoch: 40, Iteration: 600
+Epoch: 40, Iteration: 700
+Epoch: 40, Iteration: 800
+(518s) Epoch [41/100], Train_PSNR:31.42, Val_PSNR:30.55, Val_SSIM:0.9784
+Learning rate sets to 0.00025.
+Epoch: 41, Iteration: 0
+Epoch: 41, Iteration: 100
+Epoch: 41, Iteration: 200
+Epoch: 41, Iteration: 300
+Epoch: 41, Iteration: 400
+Epoch: 41, Iteration: 500
+Epoch: 41, Iteration: 600
+Epoch: 41, Iteration: 700
+Epoch: 41, Iteration: 800
+(520s) Epoch [42/100], Train_PSNR:31.58, Val_PSNR:29.98, Val_SSIM:0.9747
+Learning rate sets to 0.00025.
+Epoch: 42, Iteration: 0
+Epoch: 42, Iteration: 100
+Epoch: 42, Iteration: 200
+Epoch: 42, Iteration: 300
+Epoch: 42, Iteration: 400
+Epoch: 42, Iteration: 500
+Epoch: 42, Iteration: 600
+Epoch: 42, Iteration: 700
+Epoch: 42, Iteration: 800
+(693s) Epoch [43/100], Train_PSNR:31.54, Val_PSNR:28.66, Val_SSIM:0.9769
+Learning rate sets to 0.00025.
+Epoch: 43, Iteration: 0
+Epoch: 43, Iteration: 100
+Epoch: 43, Iteration: 200
+Epoch: 43, Iteration: 300
+Epoch: 43, Iteration: 400
+Epoch: 43, Iteration: 500
+Epoch: 43, Iteration: 600
+Epoch: 43, Iteration: 700
+Epoch: 43, Iteration: 800
+(521s) Epoch [44/100], Train_PSNR:31.40, Val_PSNR:29.96, Val_SSIM:0.9750
+Learning rate sets to 0.00025.
+Epoch: 44, Iteration: 0
+Epoch: 44, Iteration: 100
+Epoch: 44, Iteration: 200
+Epoch: 44, Iteration: 300
+Epoch: 44, Iteration: 400
+Epoch: 44, Iteration: 500
+Epoch: 44, Iteration: 600
+Epoch: 44, Iteration: 700
+Epoch: 44, Iteration: 800
+(519s) Epoch [45/100], Train_PSNR:31.68, Val_PSNR:30.42, Val_SSIM:0.9793
+Learning rate sets to 0.00025.
+Epoch: 45, Iteration: 0
+Epoch: 45, Iteration: 100
+Epoch: 45, Iteration: 200
+Epoch: 45, Iteration: 300
+Epoch: 45, Iteration: 400
+Epoch: 45, Iteration: 500
+Epoch: 45, Iteration: 600
+Epoch: 45, Iteration: 700
+Epoch: 45, Iteration: 800
+(533s) Epoch [46/100], Train_PSNR:31.77, Val_PSNR:30.90, Val_SSIM:0.9805
+Learning rate sets to 0.00025.
+Epoch: 46, Iteration: 0
+Epoch: 46, Iteration: 100
+Epoch: 46, Iteration: 200
+Epoch: 46, Iteration: 300
+Epoch: 46, Iteration: 400
+Epoch: 46, Iteration: 500
+Epoch: 46, Iteration: 600
+Epoch: 46, Iteration: 700
+Epoch: 46, Iteration: 800
+(532s) Epoch [47/100], Train_PSNR:31.73, Val_PSNR:29.39, Val_SSIM:0.9780
+Learning rate sets to 0.00025.
+Epoch: 47, Iteration: 0
+Epoch: 47, Iteration: 100
+Epoch: 47, Iteration: 200
+Epoch: 47, Iteration: 300
+Epoch: 47, Iteration: 400
+Epoch: 47, Iteration: 500
+Epoch: 47, Iteration: 600
+Epoch: 47, Iteration: 700
+Epoch: 47, Iteration: 800
+(548s) Epoch [48/100], Train_PSNR:31.78, Val_PSNR:30.11, Val_SSIM:0.9779
+Learning rate sets to 0.00025.
+Epoch: 48, Iteration: 0
+Epoch: 48, Iteration: 100
+Epoch: 48, Iteration: 200
+Epoch: 48, Iteration: 300
+Epoch: 48, Iteration: 400
+Epoch: 48, Iteration: 500
+Epoch: 48, Iteration: 600
+Epoch: 48, Iteration: 700
+Epoch: 48, Iteration: 800
+(537s) Epoch [49/100], Train_PSNR:31.79, Val_PSNR:29.74, Val_SSIM:0.9791
+Learning rate sets to 0.00025.
+Epoch: 49, Iteration: 0
+Epoch: 49, Iteration: 100
+Epoch: 49, Iteration: 200
+Epoch: 49, Iteration: 300
+Epoch: 49, Iteration: 400
+Epoch: 49, Iteration: 500
+Epoch: 49, Iteration: 600
+Epoch: 49, Iteration: 700
+Epoch: 49, Iteration: 800
+(543s) Epoch [50/100], Train_PSNR:31.78, Val_PSNR:29.54, Val_SSIM:0.9764
+Learning rate sets to 0.00025.
+Epoch: 50, Iteration: 0
+Epoch: 50, Iteration: 100
+Epoch: 50, Iteration: 200
+Epoch: 50, Iteration: 300
+Epoch: 50, Iteration: 400
+Epoch: 50, Iteration: 500
+Epoch: 50, Iteration: 600
+Epoch: 50, Iteration: 700
+Epoch: 50, Iteration: 800
+(537s) Epoch [51/100], Train_PSNR:31.82, Val_PSNR:30.00, Val_SSIM:0.9739
+Learning rate sets to 0.00025.
+Epoch: 51, Iteration: 0
+Epoch: 51, Iteration: 100
+Epoch: 51, Iteration: 200
+Epoch: 51, Iteration: 300
+Epoch: 51, Iteration: 400
+Epoch: 51, Iteration: 500
+Epoch: 51, Iteration: 600
+Epoch: 51, Iteration: 700
+Epoch: 51, Iteration: 800
+(658s) Epoch [52/100], Train_PSNR:31.97, Val_PSNR:29.82, Val_SSIM:0.9796
+Learning rate sets to 0.00025.
+Epoch: 52, Iteration: 0
+Epoch: 52, Iteration: 100
+Epoch: 52, Iteration: 200
+Epoch: 52, Iteration: 300
+Epoch: 52, Iteration: 400
+Epoch: 52, Iteration: 500
+Epoch: 52, Iteration: 600
+Epoch: 52, Iteration: 700
+Epoch: 52, Iteration: 800
+(528s) Epoch [53/100], Train_PSNR:31.97, Val_PSNR:29.13, Val_SSIM:0.9791
+Learning rate sets to 0.00025.
+Epoch: 53, Iteration: 0
+Epoch: 53, Iteration: 100
+Epoch: 53, Iteration: 200
+Epoch: 53, Iteration: 300
+Epoch: 53, Iteration: 400
+Epoch: 53, Iteration: 500
+Epoch: 53, Iteration: 600
+Epoch: 53, Iteration: 700
+Epoch: 53, Iteration: 800
+(518s) Epoch [54/100], Train_PSNR:31.93, Val_PSNR:29.90, Val_SSIM:0.9792
+Learning rate sets to 0.00025.
+Epoch: 54, Iteration: 0
+Epoch: 54, Iteration: 100
+Epoch: 54, Iteration: 200
+Epoch: 54, Iteration: 300
+Epoch: 54, Iteration: 400
+Epoch: 54, Iteration: 500
+Epoch: 54, Iteration: 600
+Epoch: 54, Iteration: 700
+Epoch: 54, Iteration: 800
+(518s) Epoch [55/100], Train_PSNR:31.92, Val_PSNR:30.11, Val_SSIM:0.9775
+Learning rate sets to 0.00025.
+Epoch: 55, Iteration: 0
+Epoch: 55, Iteration: 100
+Epoch: 55, Iteration: 200
+Epoch: 55, Iteration: 300
+Epoch: 55, Iteration: 400
+Epoch: 55, Iteration: 500
+Epoch: 55, Iteration: 600
+Epoch: 55, Iteration: 700
+Epoch: 55, Iteration: 800
+(512s) Epoch [56/100], Train_PSNR:32.03, Val_PSNR:30.67, Val_SSIM:0.9810
+Learning rate sets to 0.00025.
+Epoch: 56, Iteration: 0
+Epoch: 56, Iteration: 100
+Epoch: 56, Iteration: 200
+Epoch: 56, Iteration: 300
+Epoch: 56, Iteration: 400
+Epoch: 56, Iteration: 500
+Epoch: 56, Iteration: 600
+Epoch: 56, Iteration: 700
+Epoch: 56, Iteration: 800
+(653s) Epoch [57/100], Train_PSNR:32.13, Val_PSNR:31.34, Val_SSIM:0.9802
+Learning rate sets to 0.00025.
+Epoch: 57, Iteration: 0
+Epoch: 57, Iteration: 100
+Epoch: 57, Iteration: 200
+Epoch: 57, Iteration: 300
+Epoch: 57, Iteration: 400
+Epoch: 57, Iteration: 500
+Epoch: 57, Iteration: 600
+Epoch: 57, Iteration: 700
+Epoch: 57, Iteration: 800
+(516s) Epoch [58/100], Train_PSNR:32.08, Val_PSNR:29.59, Val_SSIM:0.9796
+Learning rate sets to 0.00025.
+Epoch: 58, Iteration: 0
+Epoch: 58, Iteration: 100
+Epoch: 58, Iteration: 200
+Epoch: 58, Iteration: 300
+Epoch: 58, Iteration: 400
+Epoch: 58, Iteration: 500
+Epoch: 58, Iteration: 600
+Epoch: 58, Iteration: 700
+Epoch: 58, Iteration: 800
+(516s) Epoch [59/100], Train_PSNR:32.02, Val_PSNR:29.66, Val_SSIM:0.9747
+Learning rate sets to 0.00025.
+Epoch: 59, Iteration: 0
+Epoch: 59, Iteration: 100
+Epoch: 59, Iteration: 200
+Epoch: 59, Iteration: 300
+Epoch: 59, Iteration: 400
+Epoch: 59, Iteration: 500
+Epoch: 59, Iteration: 600
+Epoch: 59, Iteration: 700
+Epoch: 59, Iteration: 800
+(515s) Epoch [60/100], Train_PSNR:32.03, Val_PSNR:29.41, Val_SSIM:0.9760
+Learning rate sets to 0.000125.
+Epoch: 60, Iteration: 0
+Epoch: 60, Iteration: 100
+Epoch: 60, Iteration: 200
+Epoch: 60, Iteration: 300
+Epoch: 60, Iteration: 400
+Epoch: 60, Iteration: 500
+Epoch: 60, Iteration: 600
+Epoch: 60, Iteration: 700
+Epoch: 60, Iteration: 800
+(530s) Epoch [61/100], Train_PSNR:32.63, Val_PSNR:31.08, Val_SSIM:0.9818
+Learning rate sets to 0.000125.
+Epoch: 61, Iteration: 0
+Epoch: 61, Iteration: 100
+Epoch: 61, Iteration: 200
+Epoch: 61, Iteration: 300
+Epoch: 61, Iteration: 400
+Epoch: 61, Iteration: 500
+Epoch: 61, Iteration: 600
+Epoch: 61, Iteration: 700
+Epoch: 61, Iteration: 800
+(553s) Epoch [62/100], Train_PSNR:32.63, Val_PSNR:29.94, Val_SSIM:0.9807
+Learning rate sets to 0.000125.
+Epoch: 62, Iteration: 0
+Epoch: 62, Iteration: 100
+Epoch: 62, Iteration: 200
+Epoch: 62, Iteration: 300
+Epoch: 62, Iteration: 400
+Epoch: 62, Iteration: 500
+Epoch: 62, Iteration: 600
+Epoch: 62, Iteration: 700
+Epoch: 62, Iteration: 800
+(510s) Epoch [63/100], Train_PSNR:32.70, Val_PSNR:30.18, Val_SSIM:0.9800
+Learning rate sets to 0.000125.
+Epoch: 63, Iteration: 0
+Epoch: 63, Iteration: 100
+Epoch: 63, Iteration: 200
+Epoch: 63, Iteration: 300
+Epoch: 63, Iteration: 400
+Epoch: 63, Iteration: 500
+Epoch: 63, Iteration: 600
+Epoch: 63, Iteration: 700
+Epoch: 63, Iteration: 800
+(512s) Epoch [64/100], Train_PSNR:32.75, Val_PSNR:31.64, Val_SSIM:0.9824
+Learning rate sets to 0.000125.
+Epoch: 64, Iteration: 0
+Epoch: 64, Iteration: 100
+Epoch: 64, Iteration: 200
+Epoch: 64, Iteration: 300
+Epoch: 64, Iteration: 400
+Epoch: 64, Iteration: 500
+Epoch: 64, Iteration: 600
+Epoch: 64, Iteration: 700
+Epoch: 64, Iteration: 800
+(523s) Epoch [65/100], Train_PSNR:32.74, Val_PSNR:30.11, Val_SSIM:0.9815
+Learning rate sets to 0.000125.
+Epoch: 65, Iteration: 0
+Epoch: 65, Iteration: 100
+Epoch: 65, Iteration: 200
+Epoch: 65, Iteration: 300
+Epoch: 65, Iteration: 400
+Epoch: 65, Iteration: 500
+Epoch: 65, Iteration: 600
+Epoch: 65, Iteration: 700
+Epoch: 65, Iteration: 800
+(549s) Epoch [66/100], Train_PSNR:32.73, Val_PSNR:31.49, Val_SSIM:0.9820
+Learning rate sets to 0.000125.
+Epoch: 66, Iteration: 0
+Epoch: 66, Iteration: 100
+Epoch: 66, Iteration: 200
+Epoch: 66, Iteration: 300
+Epoch: 66, Iteration: 400
+Epoch: 66, Iteration: 500
+Epoch: 66, Iteration: 600
+Epoch: 66, Iteration: 700
+Epoch: 66, Iteration: 800
+(529s) Epoch [67/100], Train_PSNR:32.78, Val_PSNR:30.76, Val_SSIM:0.9808
+Learning rate sets to 0.000125.
+Epoch: 67, Iteration: 0
+Epoch: 67, Iteration: 100
+Epoch: 67, Iteration: 200
+Epoch: 67, Iteration: 300
+Epoch: 67, Iteration: 400
+Epoch: 67, Iteration: 500
+Epoch: 67, Iteration: 600
+Epoch: 67, Iteration: 700
+Epoch: 67, Iteration: 800
+(530s) Epoch [68/100], Train_PSNR:32.76, Val_PSNR:31.11, Val_SSIM:0.9823
+Learning rate sets to 0.000125.
+Epoch: 68, Iteration: 0
+Epoch: 68, Iteration: 100
+Epoch: 68, Iteration: 200
+Epoch: 68, Iteration: 300
+Epoch: 68, Iteration: 400
+Epoch: 68, Iteration: 500
+Epoch: 68, Iteration: 600
+Epoch: 68, Iteration: 700
+Epoch: 68, Iteration: 800
+(509s) Epoch [69/100], Train_PSNR:32.87, Val_PSNR:30.54, Val_SSIM:0.9814
+Learning rate sets to 0.000125.
+Epoch: 69, Iteration: 0
+Epoch: 69, Iteration: 100
+Epoch: 69, Iteration: 200
+Epoch: 69, Iteration: 300
+Epoch: 69, Iteration: 400
+Epoch: 69, Iteration: 500
+Epoch: 69, Iteration: 600
+Epoch: 69, Iteration: 700
+Epoch: 69, Iteration: 800
+(589s) Epoch [70/100], Train_PSNR:32.83, Val_PSNR:28.81, Val_SSIM:0.9728
+Learning rate sets to 0.000125.
+Epoch: 70, Iteration: 0
+Epoch: 70, Iteration: 100
+Epoch: 70, Iteration: 200
+Epoch: 70, Iteration: 300
+Epoch: 70, Iteration: 400
+Epoch: 70, Iteration: 500
+Epoch: 70, Iteration: 600
+Epoch: 70, Iteration: 700
+Epoch: 70, Iteration: 800
+(512s) Epoch [71/100], Train_PSNR:32.84, Val_PSNR:30.63, Val_SSIM:0.9813
+Learning rate sets to 0.000125.
+Epoch: 71, Iteration: 0
+Epoch: 71, Iteration: 100
+Epoch: 71, Iteration: 200
+Epoch: 71, Iteration: 300
+Epoch: 71, Iteration: 400
+Epoch: 71, Iteration: 500
+Epoch: 71, Iteration: 600
+Epoch: 71, Iteration: 700
+Epoch: 71, Iteration: 800
+(683s) Epoch [72/100], Train_PSNR:32.85, Val_PSNR:30.78, Val_SSIM:0.9827
+Learning rate sets to 0.000125.
+Epoch: 72, Iteration: 0
+Epoch: 72, Iteration: 100
+Epoch: 72, Iteration: 200
+Epoch: 72, Iteration: 300
+Epoch: 72, Iteration: 400
+Epoch: 72, Iteration: 500
+Epoch: 72, Iteration: 600
+Epoch: 72, Iteration: 700
+Epoch: 72, Iteration: 800
+(513s) Epoch [73/100], Train_PSNR:32.88, Val_PSNR:32.12, Val_SSIM:0.9833
+Learning rate sets to 0.000125.
+Epoch: 73, Iteration: 0
+Epoch: 73, Iteration: 100
+Epoch: 73, Iteration: 200
+Epoch: 73, Iteration: 300
+Epoch: 73, Iteration: 400
+Epoch: 73, Iteration: 500
+Epoch: 73, Iteration: 600
+Epoch: 73, Iteration: 700
+Epoch: 73, Iteration: 800
+(514s) Epoch [74/100], Train_PSNR:32.93, Val_PSNR:31.08, Val_SSIM:0.9816
+Learning rate sets to 0.000125.
+Epoch: 74, Iteration: 0
+Epoch: 74, Iteration: 100
+Epoch: 74, Iteration: 200
+Epoch: 74, Iteration: 300
+Epoch: 74, Iteration: 400
+Epoch: 74, Iteration: 500
+Epoch: 74, Iteration: 600
+Epoch: 74, Iteration: 700
+Epoch: 74, Iteration: 800
+(510s) Epoch [75/100], Train_PSNR:32.93, Val_PSNR:31.13, Val_SSIM:0.9819
+Learning rate sets to 0.000125.
+Epoch: 75, Iteration: 0
+Epoch: 75, Iteration: 100
+Epoch: 75, Iteration: 200
+Epoch: 75, Iteration: 300
+Epoch: 75, Iteration: 400
+Epoch: 75, Iteration: 500
+Epoch: 75, Iteration: 600
+Epoch: 75, Iteration: 700
+Epoch: 75, Iteration: 800
+(525s) Epoch [76/100], Train_PSNR:32.96, Val_PSNR:31.22, Val_SSIM:0.9823
+Learning rate sets to 0.000125.
+Epoch: 76, Iteration: 0
+Epoch: 76, Iteration: 100
+Epoch: 76, Iteration: 200
+Epoch: 76, Iteration: 300
+Epoch: 76, Iteration: 400
+Epoch: 76, Iteration: 500
+Epoch: 76, Iteration: 600
+Epoch: 76, Iteration: 700
+Epoch: 76, Iteration: 800
+(516s) Epoch [77/100], Train_PSNR:32.97, Val_PSNR:30.21, Val_SSIM:0.9795
+Learning rate sets to 0.000125.
+Epoch: 77, Iteration: 0
+Epoch: 77, Iteration: 100
+Epoch: 77, Iteration: 200
+Epoch: 77, Iteration: 300
+Epoch: 77, Iteration: 400
+Epoch: 77, Iteration: 500
+Epoch: 77, Iteration: 600
+Epoch: 77, Iteration: 700
+Epoch: 77, Iteration: 800
+(608s) Epoch [78/100], Train_PSNR:32.95, Val_PSNR:31.73, Val_SSIM:0.9835
+Learning rate sets to 0.000125.
+Epoch: 78, Iteration: 0
+Epoch: 78, Iteration: 100
+Epoch: 78, Iteration: 200
+Epoch: 78, Iteration: 300
+Epoch: 78, Iteration: 400
+Epoch: 78, Iteration: 500
+Epoch: 78, Iteration: 600
+Epoch: 78, Iteration: 700
+Epoch: 78, Iteration: 800
+(673s) Epoch [79/100], Train_PSNR:33.03, Val_PSNR:30.63, Val_SSIM:0.9820
+Learning rate sets to 0.000125.
+Epoch: 79, Iteration: 0
+Epoch: 79, Iteration: 100
+Epoch: 79, Iteration: 200
+Epoch: 79, Iteration: 300
+Epoch: 79, Iteration: 400
+Epoch: 79, Iteration: 500
+Epoch: 79, Iteration: 600
+Epoch: 79, Iteration: 700
+Epoch: 79, Iteration: 800
+(525s) Epoch [80/100], Train_PSNR:33.03, Val_PSNR:30.77, Val_SSIM:0.9816
+Learning rate sets to 6.25e-05.
+Epoch: 80, Iteration: 0
+Epoch: 80, Iteration: 100
+Epoch: 80, Iteration: 200
+Epoch: 80, Iteration: 300
+Epoch: 80, Iteration: 400
+Epoch: 80, Iteration: 500
+Epoch: 80, Iteration: 600
+Epoch: 80, Iteration: 700
+Epoch: 80, Iteration: 800
+(510s) Epoch [81/100], Train_PSNR:33.35, Val_PSNR:31.52, Val_SSIM:0.9838
+Learning rate sets to 6.25e-05.
+Epoch: 81, Iteration: 0
+Epoch: 81, Iteration: 100
+Epoch: 81, Iteration: 200
+Epoch: 81, Iteration: 300
+Epoch: 81, Iteration: 400
+Epoch: 81, Iteration: 500
+Epoch: 81, Iteration: 600
+Epoch: 81, Iteration: 700
+Epoch: 81, Iteration: 800
+(524s) Epoch [82/100], Train_PSNR:33.32, Val_PSNR:30.74, Val_SSIM:0.9818
+Learning rate sets to 6.25e-05.
+Epoch: 82, Iteration: 0
+Epoch: 82, Iteration: 100
+Epoch: 82, Iteration: 200
+Epoch: 82, Iteration: 300
+Epoch: 82, Iteration: 400
+Epoch: 82, Iteration: 500
+Epoch: 82, Iteration: 600
+Epoch: 82, Iteration: 700
+Epoch: 82, Iteration: 800
+(585s) Epoch [83/100], Train_PSNR:33.35, Val_PSNR:30.72, Val_SSIM:0.9817
+Learning rate sets to 6.25e-05.
+Epoch: 83, Iteration: 0
+Epoch: 83, Iteration: 100
+Epoch: 83, Iteration: 200
+Epoch: 83, Iteration: 300
+Epoch: 83, Iteration: 400
+Epoch: 83, Iteration: 500
+Epoch: 83, Iteration: 600
+Epoch: 83, Iteration: 700
+Epoch: 83, Iteration: 800
+(585s) Epoch [84/100], Train_PSNR:33.36, Val_PSNR:30.70, Val_SSIM:0.9810
+Learning rate sets to 6.25e-05.
+Epoch: 84, Iteration: 0
+Epoch: 84, Iteration: 100
+Epoch: 84, Iteration: 200
+Epoch: 84, Iteration: 300
+Epoch: 84, Iteration: 400
+Epoch: 84, Iteration: 500
+Epoch: 84, Iteration: 600
+Epoch: 84, Iteration: 700
+Epoch: 84, Iteration: 800
+(538s) Epoch [85/100], Train_PSNR:33.33, Val_PSNR:31.45, Val_SSIM:0.9838
+Learning rate sets to 6.25e-05.
+Epoch: 85, Iteration: 0
+Epoch: 85, Iteration: 100
+Epoch: 85, Iteration: 200
+Epoch: 85, Iteration: 300
+Epoch: 85, Iteration: 400
+Epoch: 85, Iteration: 500
+Epoch: 85, Iteration: 600
+Epoch: 85, Iteration: 700
+Epoch: 85, Iteration: 800
+(534s) Epoch [86/100], Train_PSNR:33.36, Val_PSNR:31.19, Val_SSIM:0.9827
+Learning rate sets to 6.25e-05.
+Epoch: 86, Iteration: 0
+Epoch: 86, Iteration: 100
+Epoch: 86, Iteration: 200
+Epoch: 86, Iteration: 300
+Epoch: 86, Iteration: 400
+Epoch: 86, Iteration: 500
+Epoch: 86, Iteration: 600
+Epoch: 86, Iteration: 700
+Epoch: 86, Iteration: 800
+(553s) Epoch [87/100], Train_PSNR:33.37, Val_PSNR:31.28, Val_SSIM:0.9829
+Learning rate sets to 6.25e-05.
+Epoch: 87, Iteration: 0
+Epoch: 87, Iteration: 100
+Epoch: 87, Iteration: 200
+Epoch: 87, Iteration: 300
+Epoch: 87, Iteration: 400
+Epoch: 87, Iteration: 500
+Epoch: 87, Iteration: 600
+Epoch: 87, Iteration: 700
+Epoch: 87, Iteration: 800
+(533s) Epoch [88/100], Train_PSNR:33.40, Val_PSNR:31.56, Val_SSIM:0.9834
+Learning rate sets to 6.25e-05.
+Epoch: 88, Iteration: 0
+Epoch: 88, Iteration: 100
+Epoch: 88, Iteration: 200
+Epoch: 88, Iteration: 300
+Epoch: 88, Iteration: 400
+Epoch: 88, Iteration: 500
+Epoch: 88, Iteration: 600
+Epoch: 88, Iteration: 700
+Epoch: 88, Iteration: 800
+(533s) Epoch [89/100], Train_PSNR:33.39, Val_PSNR:31.31, Val_SSIM:0.9833
+Learning rate sets to 6.25e-05.
+Epoch: 89, Iteration: 0
+Epoch: 89, Iteration: 100
+Epoch: 89, Iteration: 200
+Epoch: 89, Iteration: 300
+Epoch: 89, Iteration: 400
+Epoch: 89, Iteration: 500
+Epoch: 89, Iteration: 600
+Epoch: 89, Iteration: 700
+Epoch: 89, Iteration: 800
+(531s) Epoch [90/100], Train_PSNR:33.41, Val_PSNR:31.43, Val_SSIM:0.9834
+Learning rate sets to 6.25e-05.
+Epoch: 90, Iteration: 0
+Epoch: 90, Iteration: 100
+Epoch: 90, Iteration: 200
+Epoch: 90, Iteration: 300
+Epoch: 90, Iteration: 400
+Epoch: 90, Iteration: 500
+Epoch: 90, Iteration: 600
+Epoch: 90, Iteration: 700
+Epoch: 90, Iteration: 800
+(529s) Epoch [91/100], Train_PSNR:33.43, Val_PSNR:30.83, Val_SSIM:0.9825
+Learning rate sets to 6.25e-05.
+Epoch: 91, Iteration: 0
+Epoch: 91, Iteration: 100
+Epoch: 91, Iteration: 200
+Epoch: 91, Iteration: 300
+Epoch: 91, Iteration: 400
+Epoch: 91, Iteration: 500
+Epoch: 91, Iteration: 600
+Epoch: 91, Iteration: 700
+Epoch: 91, Iteration: 800
+(538s) Epoch [92/100], Train_PSNR:33.43, Val_PSNR:31.07, Val_SSIM:0.9831
+Learning rate sets to 6.25e-05.
+Epoch: 92, Iteration: 0
+Epoch: 92, Iteration: 100
+Epoch: 92, Iteration: 200
+Epoch: 92, Iteration: 300
+Epoch: 92, Iteration: 400
+Epoch: 92, Iteration: 500
+Epoch: 92, Iteration: 600
+Epoch: 92, Iteration: 700
+Epoch: 92, Iteration: 800
+(533s) Epoch [93/100], Train_PSNR:33.46, Val_PSNR:31.20, Val_SSIM:0.9830
+Learning rate sets to 6.25e-05.
+Epoch: 93, Iteration: 0
+Epoch: 93, Iteration: 100
+Epoch: 93, Iteration: 200
+Epoch: 93, Iteration: 300
+Epoch: 93, Iteration: 400
+Epoch: 93, Iteration: 500
+Epoch: 93, Iteration: 600
+Epoch: 93, Iteration: 700
+Epoch: 93, Iteration: 800
+(536s) Epoch [94/100], Train_PSNR:33.45, Val_PSNR:31.04, Val_SSIM:0.9809
+Learning rate sets to 6.25e-05.
+Epoch: 94, Iteration: 0
+Epoch: 94, Iteration: 100
+Epoch: 94, Iteration: 200
+Epoch: 94, Iteration: 300
+Epoch: 94, Iteration: 400
+Epoch: 94, Iteration: 500
+Epoch: 94, Iteration: 600
+Epoch: 94, Iteration: 700
+Epoch: 94, Iteration: 800
+(535s) Epoch [95/100], Train_PSNR:33.48, Val_PSNR:30.68, Val_SSIM:0.9833
+Learning rate sets to 6.25e-05.
+Epoch: 95, Iteration: 0
+Epoch: 95, Iteration: 100
+Epoch: 95, Iteration: 200
+Epoch: 95, Iteration: 300
+Epoch: 95, Iteration: 400
+Epoch: 95, Iteration: 500
+Epoch: 95, Iteration: 600
+Epoch: 95, Iteration: 700
+Epoch: 95, Iteration: 800
+(534s) Epoch [96/100], Train_PSNR:33.44, Val_PSNR:31.53, Val_SSIM:0.9834
+Learning rate sets to 6.25e-05.
+Epoch: 96, Iteration: 0
+Epoch: 96, Iteration: 100
+Epoch: 96, Iteration: 200
+Epoch: 96, Iteration: 300
+Epoch: 96, Iteration: 400
+Epoch: 96, Iteration: 500
+Epoch: 96, Iteration: 600
+Epoch: 96, Iteration: 700
+Epoch: 96, Iteration: 800
+(534s) Epoch [97/100], Train_PSNR:33.48, Val_PSNR:31.14, Val_SSIM:0.9836
+Learning rate sets to 6.25e-05.
+Epoch: 97, Iteration: 0
+Epoch: 97, Iteration: 100
+Epoch: 97, Iteration: 200
+Epoch: 97, Iteration: 300
+Epoch: 97, Iteration: 400
+Epoch: 97, Iteration: 500
+Epoch: 97, Iteration: 600
+Epoch: 97, Iteration: 700
+Epoch: 97, Iteration: 800
+(535s) Epoch [98/100], Train_PSNR:33.45, Val_PSNR:31.75, Val_SSIM:0.9835
+Learning rate sets to 6.25e-05.
+Epoch: 98, Iteration: 0
+Epoch: 98, Iteration: 100
+Epoch: 98, Iteration: 200
+Epoch: 98, Iteration: 300
+Epoch: 98, Iteration: 400
+Epoch: 98, Iteration: 500
+Epoch: 98, Iteration: 600
+Epoch: 98, Iteration: 700
+Epoch: 98, Iteration: 800
+(531s) Epoch [99/100], Train_PSNR:33.52, Val_PSNR:30.94, Val_SSIM:0.9830
+Learning rate sets to 6.25e-05.
+Epoch: 99, Iteration: 0
+Epoch: 99, Iteration: 100
+Epoch: 99, Iteration: 200
+Epoch: 99, Iteration: 300
+Epoch: 99, Iteration: 400
+Epoch: 99, Iteration: 500
+Epoch: 99, Iteration: 600
+Epoch: 99, Iteration: 700
+Epoch: 99, Iteration: 800
+(535s) Epoch [100/100], Train_PSNR:33.49, Val_PSNR:30.58, Val_SSIM:0.9821

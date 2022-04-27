@@ -1,0 +1,12 @@
+nohup: ignoring input
+--- Hyper-parameters for testing ---
+val_batch_size: 1
+network_height: 3
+network_width: 6
+num_dense_layer: 4
+growth_rate: 16
+lambda_loss: 0.04
+category: indoor
+--- Testing starts! ---
+val_psnr: 32.12, val_ssim: 0.9833
+validation time is 111.5576

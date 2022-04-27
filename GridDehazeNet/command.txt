@@ -1,0 +1,24 @@
+nohup python3 main.py > main0.out 2>&1 &
+nohup python3 feature.py > feature.out 2>&1 &
+nohup python3 featurediv.py > featurediv.out 2>&1 &
+nohup python3 featureremove.py > featureremove.out 2>&1 &
+nohup python3 i3d_features.py > i3d_features.out 2>&1 &
+nohup python3 tfcheckpoint.py > tfcheckpoint.out 2>&1 &
+nohup python3 ptcheckpoint.py > ptcheckpoint.out 2>&1 &
+nohup python3 i3d_features.py > i3d_featurest.out 2>&1 &
+nohup python3 i3d_features.py > i3d_featuresval_test.out 2>&1 &
+nohup python3 mainrgb.py > mainrgb.out 2>&1 &
+nohup python3 mainrgb.py > mainrgbcv.out 2>&1 &
+nohup python3 mainty.py > maintybase.out 2>&1 &
+nohup python3 mainty.py > mainty.out 2>&1 &
+nohup python3 process_annonation.py > process_annonation.out 2>&1 &
+nohup python3 Wavelet_Denoising.py > Wavelet_Denoising.out 2>&1 &
+nohup python3 test.py > test.out 2>&1 &
+nohup python3 test.py -category outdoor > testoutdoor.out 2>&1 &
+nohup python3 train.py > train.out 2>&1 &
+nohup python3 trainnopre.py > trainnopre.out 2>&1 &
+nohup python3 test_finetune.py > test_finetune.out 2>&1 &
+nohup python3 test_finetune_nopre.py > test_finetune_nopre.out 2>&1 &
+nohup python3 modelfpganopre.py > modelfpganopre.out 2>&1 &
+nohup python3 modelfpga.py > modelfpga.out 2>&1 &
+

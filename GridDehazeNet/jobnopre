@@ -1,0 +1,21 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p GPU-shared
+#SBATCH -t 47:59:00
+#SBATCH -o trainnopre.out
+#SBATCH --gpus=1
+
+
+date
+
+
+module load anaconda3/2020.11
+module load cuda/10.2.0
+
+#conda activate myenv
+#source activate /jet/home/tangyue/.conda/envs/myenv
+#eval "$(conda shell.bash hook)"
+source activate myenv
+
+python3 -u trainnopre.py 
+
