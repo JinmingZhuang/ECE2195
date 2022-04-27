@@ -1,7 +1,7 @@
 # ECE2195
 # Task 1 GridDehazeNet for Image Dehazing
 # Subtask 1 Reproduce the codes of GridDehazeNet
-  In this task, we reporduce the work of GridDehazeNet[1]. The codes and the results are in the GridDehazeNet repo based on the source codes from https://github.com/proteus1991/GridDehazeNet. Following the instructions of the source codes, we first download the ITS (for indoor) training dataset from RESIDE. Then, copy hazy and clear folders from downloaded ITS to ./data/train/indoor/. The testing SOTS dataset is already given from the original source codes. Our repo provides some examples of the hazed and clear images.
+  In this task, we reporduce the work of GridDehazeNet[1]. The codes and the results are in the GridDehazeNet repo based on the source codes from https://github.com/proteus1991/GridDehazeNet. Following the instructions of the source codes, we first download the ITS (for indoor) training dataset from RESIDE. Then, copy hazy and clear folders from downloaded ITS to ./data/train/indoor/. The testing SOTS dataset is already given from the original source codes. Our repo provides some examples of the hazed and clear images.\r
  To train the dehazing model with the pre-processing module, we run the following instruction:
   nohup python3 train.py > train.out 2>&1 &
  The training result is shown in the 'train.out' file, and the checkpoint of the well-trained model is saved in 'indoor_haze_best_3_6_finetune'.
