@@ -2,110 +2,110 @@ nohup: ignoring input
 Tm_final= 16
 Tn_final= 80
 Exe_total= 129711842.85714285
-search time is 764.1583
-layer 0 Tr,Tc 1 620
-layer 1 Tr,Tc 1 620
-layer 2 Tr,Tc 1 620
-layer 3 Tr,Tc 1 620
-layer 4 Tr,Tc 46 620
-layer 5 Tr,Tc 1 620
-layer 6 Tr,Tc 1 620
-layer 7 Tr,Tc 1 620
-layer 8 Tr,Tc 1 620
-layer 9 Tr,Tc 46 620
-layer 10 Tr,Tc 1 310
-layer 11 Tr,Tc 1 310
-layer 12 Tr,Tc 1 155
-layer 13 Tr,Tc 1 155
-layer 14 Tr,Tc 1 310
-layer 15 Tr,Tc 1 310
-layer 16 Tr,Tc 1 310
-layer 17 Tr,Tc 1 310
-layer 18 Tr,Tc 115 310
-layer 19 Tr,Tc 1 310
-layer 20 Tr,Tc 1 310
-layer 21 Tr,Tc 1 310
-layer 22 Tr,Tc 1 310
-layer 23 Tr,Tc 1 310
-layer 24 Tr,Tc 1 310
-layer 25 Tr,Tc 115 310
-layer 26 Tr,Tc 1 310
-layer 27 Tr,Tc 1 310
-layer 28 Tr,Tc 1 155
-layer 29 Tr,Tc 1 155
-layer 30 Tr,Tc 1 155
-layer 31 Tr,Tc 1 155
-layer 32 Tr,Tc 115 155
-layer 33 Tr,Tc 1 155
-layer 34 Tr,Tc 1 155
-layer 35 Tr,Tc 1 155
-layer 36 Tr,Tc 1 155
-layer 37 Tr,Tc 1 155
-layer 38 Tr,Tc 1 155
-layer 39 Tr,Tc 115 155
-layer 40 Tr,Tc 1 155
-layer 41 Tr,Tc 1 155
-layer 42 Tr,Tc 1 155
-layer 43 Tr,Tc 1 155
-layer 44 Tr,Tc 1 155
-layer 45 Tr,Tc 1 155
-layer 46 Tr,Tc 115 155
-layer 47 Tr,Tc 1 155
-layer 48 Tr,Tc 1 155
-layer 49 Tr,Tc 1 155
-layer 50 Tr,Tc 1 155
-layer 51 Tr,Tc 115 155
-layer 52 Tr,Tc 1 155
-layer 53 Tr,Tc 1 155
-layer 54 Tr,Tc 1 155
-layer 55 Tr,Tc 1 155
-layer 56 Tr,Tc 115 155
-layer 57 Tr,Tc 1 310
-layer 58 Tr,Tc 1 310
-layer 59 Tr,Tc 1 310
-layer 60 Tr,Tc 1 310
-layer 61 Tr,Tc 115 310
-layer 62 Tr,Tc 1 310
-layer 63 Tr,Tc 1 310
-layer 64 Tr,Tc 1 620
-layer 65 Tr,Tc 1 620
-layer 66 Tr,Tc 1 620
-layer 67 Tr,Tc 1 620
-layer 68 Tr,Tc 46 620
-layer 69 Tr,Tc 1 620
-layer 70 Tr,Tc 1 620
-layer 71 Tr,Tc 1 310
-layer 72 Tr,Tc 1 310
-layer 73 Tr,Tc 1 310
-layer 74 Tr,Tc 1 310
-layer 75 Tr,Tc 115 310
-layer 76 Tr,Tc 1 310
-layer 77 Tr,Tc 1 310
-layer 78 Tr,Tc 1 310
-layer 79 Tr,Tc 1 310
-layer 80 Tr,Tc 1 310
-layer 81 Tr,Tc 1 310
-layer 82 Tr,Tc 115 310
-layer 83 Tr,Tc 1 310
-layer 84 Tr,Tc 1 310
-layer 85 Tr,Tc 1 620
-layer 86 Tr,Tc 1 620
-layer 87 Tr,Tc 1 620
-layer 88 Tr,Tc 1 620
-layer 89 Tr,Tc 46 620
-layer 90 Tr,Tc 1 620
-layer 91 Tr,Tc 1 620
-layer 92 Tr,Tc 1 620
-layer 93 Tr,Tc 1 620
-layer 94 Tr,Tc 1 620
-layer 95 Tr,Tc 1 620
-layer 96 Tr,Tc 46 620
-layer 97 Tr,Tc 1 620
-layer 98 Tr,Tc 1 620
-layer 99 Tr,Tc 1 620
-layer 100 Tr,Tc 1 620
-layer 101 Tr,Tc 1 620
-layer 102 Tr,Tc 1 620
-layer 103 Tr,Tc 46 620
-layer 104 Tr,Tc 1 620
+search time is 394.4091
+layer 0 Tr,Tc 1 620 latency 2566800.0
+layer 1 Tr,Tc 1 620 latency 2566800.0
+layer 2 Tr,Tc 1 620 latency 2566800.0
+layer 3 Tr,Tc 1 620 latency 2566800.0
+layer 4 Tr,Tc 46 620 latency 355740.25974025973
+layer 5 Tr,Tc 1 620 latency 2566800.0
+layer 6 Tr,Tc 1 620 latency 2566800.0
+layer 7 Tr,Tc 1 620 latency 2566800.0
+layer 8 Tr,Tc 1 620 latency 2566800.0
+layer 9 Tr,Tc 46 620 latency 355740.25974025973
+layer 10 Tr,Tc 1 310 latency 641700.0
+layer 11 Tr,Tc 1 310 latency 1283400.0
+layer 12 Tr,Tc 1 155 latency 320850.0
+layer 13 Tr,Tc 1 155 latency 641700.0
+layer 14 Tr,Tc 1 310 latency 641700.0
+layer 15 Tr,Tc 1 310 latency 641700.0
+layer 16 Tr,Tc 1 310 latency 641700.0
+layer 17 Tr,Tc 1 310 latency 641700.0
+layer 18 Tr,Tc 115 310 latency 326075.8441558442
+layer 19 Tr,Tc 1 310 latency 641700.0
+layer 20 Tr,Tc 1 310 latency 1283400.0
+layer 21 Tr,Tc 1 310 latency 641700.0
+layer 22 Tr,Tc 1 310 latency 641700.0
+layer 23 Tr,Tc 1 310 latency 641700.0
+layer 24 Tr,Tc 1 310 latency 641700.0
+layer 25 Tr,Tc 115 310 latency 326075.8441558442
+layer 26 Tr,Tc 1 310 latency 641700.0
+layer 27 Tr,Tc 1 310 latency 1283400.0
+layer 28 Tr,Tc 1 155 latency 160425.0
+layer 29 Tr,Tc 1 155 latency 160425.0
+layer 30 Tr,Tc 1 155 latency 320850.0
+layer 31 Tr,Tc 1 155 latency 320850.0
+layer 32 Tr,Tc 115 155 latency 163104.41558441558
+layer 33 Tr,Tc 1 155 latency 320850.0
+layer 34 Tr,Tc 1 155 latency 641700.0
+layer 35 Tr,Tc 1 155 latency 160425.0
+layer 36 Tr,Tc 1 155 latency 160425.0
+layer 37 Tr,Tc 1 155 latency 320850.0
+layer 38 Tr,Tc 1 155 latency 320850.0
+layer 39 Tr,Tc 115 155 latency 163104.41558441558
+layer 40 Tr,Tc 1 155 latency 320850.0
+layer 41 Tr,Tc 1 155 latency 641700.0
+layer 42 Tr,Tc 1 155 latency 160425.0
+layer 43 Tr,Tc 1 155 latency 160425.0
+layer 44 Tr,Tc 1 155 latency 320850.0
+layer 45 Tr,Tc 1 155 latency 320850.0
+layer 46 Tr,Tc 115 155 latency 163104.41558441558
+layer 47 Tr,Tc 1 155 latency 160425.0
+layer 48 Tr,Tc 1 155 latency 160425.0
+layer 49 Tr,Tc 1 155 latency 320850.0
+layer 50 Tr,Tc 1 155 latency 320850.0
+layer 51 Tr,Tc 115 155 latency 163104.41558441558
+layer 52 Tr,Tc 1 155 latency 160425.0
+layer 53 Tr,Tc 1 155 latency 160425.0
+layer 54 Tr,Tc 1 155 latency 320850.0
+layer 55 Tr,Tc 1 155 latency 320850.0
+layer 56 Tr,Tc 115 155 latency 163104.41558441558
+layer 57 Tr,Tc 1 310 latency 641700.0
+layer 58 Tr,Tc 1 310 latency 641700.0
+layer 59 Tr,Tc 1 310 latency 641700.0
+layer 60 Tr,Tc 1 310 latency 641700.0
+layer 61 Tr,Tc 115 310 latency 326075.8441558442
+layer 62 Tr,Tc 1 310 latency 2566800.0
+layer 63 Tr,Tc 1 310 latency 1283400.0
+layer 64 Tr,Tc 1 620 latency 2566800.0
+layer 65 Tr,Tc 1 620 latency 2566800.0
+layer 66 Tr,Tc 1 620 latency 2566800.0
+layer 67 Tr,Tc 1 620 latency 2566800.0
+layer 68 Tr,Tc 46 620 latency 355740.25974025973
+layer 69 Tr,Tc 1 620 latency 5133600.0
+layer 70 Tr,Tc 1 620 latency 2566800.0
+layer 71 Tr,Tc 1 310 latency 641700.0
+layer 72 Tr,Tc 1 310 latency 641700.0
+layer 73 Tr,Tc 1 310 latency 641700.0
+layer 74 Tr,Tc 1 310 latency 641700.0
+layer 75 Tr,Tc 115 310 latency 326075.8441558442
+layer 76 Tr,Tc 1 310 latency 2566800.0
+layer 77 Tr,Tc 1 310 latency 1283400.0
+layer 78 Tr,Tc 1 310 latency 641700.0
+layer 79 Tr,Tc 1 310 latency 641700.0
+layer 80 Tr,Tc 1 310 latency 641700.0
+layer 81 Tr,Tc 1 310 latency 641700.0
+layer 82 Tr,Tc 115 310 latency 326075.8441558442
+layer 83 Tr,Tc 1 310 latency 2566800.0
+layer 84 Tr,Tc 1 310 latency 1283400.0
+layer 85 Tr,Tc 1 620 latency 2566800.0
+layer 86 Tr,Tc 1 620 latency 2566800.0
+layer 87 Tr,Tc 1 620 latency 2566800.0
+layer 88 Tr,Tc 1 620 latency 2566800.0
+layer 89 Tr,Tc 46 620 latency 355740.25974025973
+layer 90 Tr,Tc 1 620 latency 5133600.0
+layer 91 Tr,Tc 1 620 latency 2566800.0
+layer 92 Tr,Tc 1 620 latency 2566800.0
+layer 93 Tr,Tc 1 620 latency 2566800.0
+layer 94 Tr,Tc 1 620 latency 2566800.0
+layer 95 Tr,Tc 1 620 latency 2566800.0
+layer 96 Tr,Tc 46 620 latency 355740.25974025973
+layer 97 Tr,Tc 1 620 latency 5133600.0
+layer 98 Tr,Tc 1 620 latency 2566800.0
+layer 99 Tr,Tc 1 620 latency 2566800.0
+layer 100 Tr,Tc 1 620 latency 2566800.0
+layer 101 Tr,Tc 1 620 latency 2566800.0
+layer 102 Tr,Tc 1 620 latency 2566800.0
+layer 103 Tr,Tc 46 620 latency 355740.25974025973
+layer 104 Tr,Tc 1 620 latency 2566800.0
 129711842.85714285
