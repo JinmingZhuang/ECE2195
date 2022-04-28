@@ -98,7 +98,7 @@ def printcifarZCA(dataL,labelsL,imgname):
 
 
 
-def loadData(dataset = 'datasets/cifar-10-batches-py', noValid=10000, noTest=10000):
+def loadData(dataset = '../datasets/cifar-10-batches-py', noValid=10000, noTest=10000):
 
     inputX=[]
     inputY=[]
