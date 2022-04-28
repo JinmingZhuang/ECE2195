@@ -2,22 +2,43 @@ clear
 clc
 tic
 
-CNN=[1024,1024,1,1,1,1;
-     1,6,32,32,5,1;
-     6,16,14,14,5,1
-     16,120,5,5,5,1;
-     120,84,1,1,1,1;]; %N,M,R,C,K,S
-[NUM_layer,y]=size(CNN);
+%%%%%%%%%%%%%%%%%%%%%%%%%%%    Input parameters   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+CNN=[150528,150528,1,1,1,1; %Preprocessing
+     3,64,224,224,3,1;
+     64,128,224,224,3,1;
+     128,128,112,112,3,1;
+     128,128,112,112,3,1;
+     128,256,56,56,3,1;
+     256,256,56,56,3,1;
+     256,256,56,56,3,1;
+     256,512,28,28,3,1;
+     512,512,28,28,3,1;
+     512,512,28,28,3,1;
+     512,512,14,14,3,1;
+     512,512,14,14,3,1;
+     512,512,14,14,3,1;
+     512,4096,7,7,7,1;
+     4096,4096,1,1,1,1;
+     4096,1000,1,1,1,1;]; %N,M,R,C,K,S
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%    Hardware Information  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 NUM_DSP=floor(6833/5);
 BRAM=8.17+33.75;  %MB
 DATA_TYPE=4; %B;
 DDR_BW=77; % GB/s
 freq=250; %MHz
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[NUM_layer,y]=size(CNN);
 Exe_total=1e30;
 Tm_final=NUM_DSP;
 Tn_final=NUM_DSP;
+Tr_final=zeros(1,NUM_layer);
+Tc_final=zeros(1,NUM_layer);
+BRAM_layer=zeros(1,NUM_layer);
+
 for Tn=1:NUM_DSP
     for Tm=1:floor(NUM_DSP/Tn)
         Exe_min=ones(1,NUM_layer)*1e20;
@@ -46,6 +67,9 @@ for Tn=1:NUM_DSP
                         Exe_cyc=max(Comm_cyc,Comp_cyc);
                         if(Exe_cyc<Exe_min(1,i))
                             Exe_min(1,i)=Exe_cyc;
+                            Tr_final(1,i)=Tr;
+                            Tc_final(1,i)=Tc;
+                            BRAM_layer(1,i)=BRAM_req;
                         end
                     end
                 end
