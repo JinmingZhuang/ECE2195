@@ -83,7 +83,8 @@ We set "fLayerOutNeuron"=200, "learnRate"=0.05, "lmbda=10.0". After 20 epoach, w
 
  ## Subtask 2 Establish an analytical model for ZCA
  
- As described in Task 1, we also implemented a Matlab version of analytical model. In this analytical model, we aim to find the overall optimized unrolling factor when depolying ZCA preprocessing(Acturally a Matrix-Multiply Kernel) and VGG16 network on U200 FPGA.
+ As described in Task 1, we also implemented a Matlab version of analytical model. In this analytical model, we aim to find the overall optimized unrolling factor when depolying ZCA preprocessing(Acturally a Matrix-Multiply Kernel) and VGG16 network on U200 FPGA.<br>
+ ![image](https://user-images.githubusercontent.com/77606152/165692483-8e50c43b-4cea-4ecb-8e97-ed9c7120a472.png).<br>
   
   
   
