@@ -59,6 +59,7 @@ The result is shown in the modelfpganopre.out' file.
 * opencv-python==4.2.0.32
 * theano==0.7
 * NVIDIA drivers (If using GPU) 
+* cifar-10-batches-py(See ./dataset/cifar-10-batches-py/readme.html)
 ```
 
 ### Workflow :
