@@ -50,7 +50,7 @@ The result is shown in the modelfpganopre.out' file.
 
 ## Subtask 1 Reproduce the codes of ZCA
 
- In [2], Zero Component Analysis (ZCA) has been proposed to preprocess images before input data entering the CNN model while the mean normalization and standardization filter serves as the baseline for comparison with different pre-processing techniques. In this part, we reproduce the experiment result of a 10-class image classigication task with three kinds of preprocess methods mentioned in [2], including mean normalizaion, standardization  and Zero Component Analysis(ZCA). Please see https://github.com/kuntalkumarpal/Preprocessing-Image-Classification-CNN.git for the original code. For mean normalizaion and standardization cases, we further applied RGB-normalization based on their code, otherwise the accuracy would be very low about 10%.
+ In [2], Zero Component Analysis (ZCA) has been proposed to preprocess images before input data entering the CNN model while the mean normalization and standardization filter serves as the baseline for comparison with different pre-processing techniques. In this part, we reproduce the experiment result of a 10-class image classigication task with three kinds of preprocess methods mentioned in [2], including mean normalizaion, standardization  and Zero Component Analysis(ZCA). Please see https://github.com/kuntalkumarpal/Preprocessing-Image-Classification-CNN.git for the original code. For mean normalizaion and standardization cases, we applied RGB-normalization based on their code, otherwise the accuracy would be as low as about 10%(ZCA preprocess version already has RGB norm in their code).
 
 ### Requirements :
 ```sh
@@ -63,7 +63,16 @@ The result is shown in the modelfpganopre.out' file.
 ```
 
 ### Workflow :
-1.   
+1. Download cifar-10 dataset from the link procided in ./ZCA/datasets/cifar-10-batches-py/readme.html and unzip it in ./ZCA/datasets/cifar-10-batches-py/.<br>
+2. Reproduce Preprocess + CNN <br>
+Here we use ./ZCA/RGB_ZCA as an exmple to illustrate how these code works.<br>
+```sh
+cd ./ZCA/RGB_ZCA
+python cifar_loader_ZCA.py   //preprocess steps
+THEANO_FLAGS='floatX=float32,device=gpu,gpuarray__preallocate=1'  python CNN_ZCA.py //train and test
+```
+
+
   
   
   
