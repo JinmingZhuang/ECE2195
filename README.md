@@ -2,7 +2,7 @@
 
 # Task 1 GridDehazeNet for Image Dehazing
 
-# Subtask 1 Reproduce the codes of GridDehazeNet
+## Subtask 1 Reproduce the codes of GridDehazeNet
 
   In this task, we reporduce the work of GridDehazeNet[1]. The codes and the results are in the GridDehazeNet repo based on the source codes from https://github.com/proteus1991/GridDehazeNet. Following the instructions of the source codes, we first download the ITS (for indoor) training dataset from RESIDE. Then, copy hazy and clear folders from downloaded ITS to ./data/train/indoor/. The testing SOTS dataset is already given from the original source codes. Our repo provides some examples of the hazed and clear images.
   
@@ -30,7 +30,7 @@
   
  The testing result is shown in the 'test_finetune_nopre' file, the PSNR is 30.03, and the SSIM is 0.9789.
  
- # Subtask 2 Establish an analytical model for GridDehazeNet
+ ## Subtask 2 Establish an analytical model for GridDehazeNet
  
    We establish an analytical model to implement GridDehazeNet on U200 FPGA board. The model and the results are in the FPGAmodelT1 repo.
    
@@ -48,7 +48,7 @@ The result is shown in the modelfpganopre.out' file.
   
 # Task 2 Preprocessing for Image Classification by CNN(ZCA)
 
-# Subtask 1 Reproduce the codes of ZCA
+## Subtask 1 Reproduce the codes of ZCA
 
   
   
