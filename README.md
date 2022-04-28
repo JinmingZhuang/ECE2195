@@ -50,12 +50,19 @@ The result is shown in the modelfpganopre.out' file.
 
 ## Subtask 1 Reproduce the codes of ZCA
 
-  In task 2, we reproduce three kinds of preprocess methods mentioned in [2], including mean normalizaion, standardization  and Zero Component Analysis(ZCA). Please see https://github.com/kuntalkumarpal/Preprocessing-Image-Classification-CNN.git for original code. Based on their code, we apply RGB-normalization to mean normalizaion, standardization techinques.
+ In [2], Zero Component Analysis (ZCA) has been proposed to preprocess images before input data entering the CNN model while the mean normalization and standardization filter serves as the baseline for comparison with different pre-processing techniques. In this part, we reproduce the experiment result of a 10-class image classigication task with three kinds of preprocess methods mentioned in [2], including mean normalizaion, standardization  and Zero Component Analysis(ZCA). Please see https://github.com/kuntalkumarpal/Preprocessing-Image-Classification-CNN.git for the original code. For mean normalizaion and standardization cases, we further applied RGB-normalization based on their code, otherwise the accuracy would be very low about 10%.
 
-### Package Dependency and Dataset Download
-  
-  
-  
+### Requirements :
+```sh
+* Python 2.7
+* matplotlib
+* opencv-python==4.2.0.32
+* theano==0.7
+* NVIDIA drivers (If using GPU) 
+```
+
+### Workflow :
+1.   
   
   
   
