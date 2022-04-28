@@ -66,14 +66,19 @@ The result is shown in the modelfpganopre.out' file.
 1. Download cifar-10 dataset from the link procided in ./ZCA/datasets/cifar-10-batches-py/readme.html and unzip it in ./ZCA/datasets/cifar-10-batches-py/.<br>
 2. Reproduce Preprocess + CNN <br>
 Here we use ./ZCA/RGB_ZCA as an exmple to illustrate how these code works.<br>
+
+Preprocessing the input images<br>
 ```sh
 cd ./ZCA/RGB_ZCA
-python cifar_loader_ZCA.py   //preprocess steps
-THEANO_FLAGS='floatX=float32,device=gpu,gpuarray__preallocate=1'  python CNN_ZCA.py //train and test
+python cifar_loader_ZCA.py
 ```
 
-
-  
+CNN_ZCA.py will call its corresponding loader(here loader_centerd_ZCA.py) to load the image after preprocessing, then it's ready to start training and testing<br>
+```sh
+THEANO_FLAGS='floatX=float32,device=gpu,gpuarray__preallocate=1'  python CNN_ZCA.py
+```
+### Exepected Result :
+We set "fLayerOutNeuron"=200, "learnRate"=0.05, "lmbda=10.0". After 20 epoach, we expected to get 67.06% test accuracy.
   
   
   
