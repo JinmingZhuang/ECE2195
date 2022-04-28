@@ -50,8 +50,9 @@ The result is shown in the modelfpganopre.out' file.
 
 ## Subtask 1 Reproduce the codes of ZCA
 
-  
-  
+  In task 2, we reproduce three kinds of preprocess methods mentioned in [2], including mean normalizaion, standardization  and Zero Component Analysis(ZCA). Please see https://github.com/kuntalkumarpal/Preprocessing-Image-Classification-CNN.git for original code. Based on their code, we apply RGB-normalization to mean normalizaion, standardization techinques.
+
+### Package Dependency and Dataset Download
   
   
   
