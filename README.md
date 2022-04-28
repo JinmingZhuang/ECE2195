@@ -9,7 +9,7 @@
   ### Requirements :
 ```sh
 * Python >= 3.7
-* Cuda >= 10.2
+* CUDA >= 10.2
 * Pytorch >= 1.7.0
 * Torchvision >= 0.8.0
 * Torchsummary >= 1.5.1
