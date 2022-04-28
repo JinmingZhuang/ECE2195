@@ -152,9 +152,9 @@ def loadData(dataset = '../datasets/cifar-10-batches-py', noValid=10000, noTest=
     validX=validX.astype(dtype='float32')
     testX=testX.astype(dtype='float32')
 
-    trainX = trainX/255.
-    validX = validX/255.
-    testX = testX/255.
+    #trainX = trainX/255.
+    #validX = validX/255.
+    #testX = testX/255.
     
     #Preprocessing by calculating mean over all pixels of only Training data
     #''' ZERO CENTERING -> BY SUBTRACTING MEAN '''
