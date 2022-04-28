@@ -46,6 +46,10 @@ To receive the best selection of Tm and Tn for the whole network, the best of Tr
    
 The result is shown in the modelfpganopre.out' file.
   
+# Task 2 Preprocessing for Image Classification by CNN(ZCA)
+
+# Subtask 1 Reproduce the codes of ZCA
+
   
   
   
@@ -61,4 +65,4 @@ The result is shown in the modelfpganopre.out' file.
   
 # Reference
 [1] Liu, Xiaohong, et al. "Griddehazenet: Attention-based multi-scale network for image dehazing." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2019.
-  
+[2] K. K. Pal and K. S. Sudeep, "Preprocessing for image classification by convolutional neural networks," 2016 IEEE International Conference on Recent Trends in Electronics, Information & Communication Technology (RTEICT), 2016, pp. 1778-1781.
