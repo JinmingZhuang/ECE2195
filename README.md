@@ -78,9 +78,12 @@ CNN_ZCA.py will call its corresponding loader(here loader_centerd_ZCA.py) to loa
 THEANO_FLAGS='floatX=float32,device=gpu,gpuarray__preallocate=1'  python CNN_ZCA.py
 ```
 ### Exepected Result :
-We set "fLayerOutNeuron"=200, "learnRate"=0.05, "lmbda=10.0". After 20 epoach, we expected to get 67.06% test accuracy.
-  
-  
+We set "fLayerOutNeuron"=200, "learnRate"=0.05, "lmbda=10.0". After 20 epoach, we expected to get 67.06% test accuracy.<br>
+![74d2321237dd85837b6abcba0a4323a](https://user-images.githubusercontent.com/77606152/165691093-6f585164-6f2f-42fa-b3aa-907e8468f61e.png).<br>
+
+ ## Subtask 2 Establish an analytical model for ZCA
+ 
+ As described in Task 1, we also implemented a Matlab version of analytical model. In this analytical model, we aim to find the overall optimized unrolling factor when depolying ZCA preprocessing(Acturally a Matrix-Multiply Kernel) and VGG16 network on U200 FPGA.
   
   
   
