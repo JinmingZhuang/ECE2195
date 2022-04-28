@@ -6,6 +6,18 @@
 
   In this task, we reporduce the work of GridDehazeNet[1]. The codes and the results are in the GridDehazeNet repo based on the source codes from https://github.com/proteus1991/GridDehazeNet. Following the instructions of the source codes, we first download the ITS (for indoor) training dataset from RESIDE. Then, copy hazy and clear folders from downloaded ITS to ./data/train/indoor/. The testing SOTS dataset is already given from the original source codes. Our repo provides some examples of the hazed and clear images.
   
+  ### Requirements :
+```sh
+* Python >= 3.7
+* Cuda >= 10.2
+* Pytorch >= 1.7.0
+* Torchvision >= 0.8.0
+* Torchsummary >= 1.5.1
+* Numpy >= 1.21.2
+* Scipy >= 1.7.1
+```
+
+  
  To train the dehazing model with the pre-processing module, we run the following instruction:
  
     nohup python3 train.py > train.out 2>&1 &
