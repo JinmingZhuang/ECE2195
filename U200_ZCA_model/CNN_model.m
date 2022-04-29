@@ -4,22 +4,22 @@ tic
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%    Input parameters   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 CNN=[150528,150528,1,1,1,1; %Preprocessing
-     3,64,224,224,3,1;
-     64,128,224,224,3,1;
-     128,128,112,112,3,1;
-     128,128,112,112,3,1;
-     128,256,56,56,3,1;
-     256,256,56,56,3,1;
-     256,256,56,56,3,1;
-     256,512,28,28,3,1;
-     512,512,28,28,3,1;
-     512,512,28,28,3,1;
-     512,512,14,14,3,1;
-     512,512,14,14,3,1;
-     512,512,14,14,3,1;
-     512,4096,7,7,7,1;
-     4096,4096,1,1,1,1;
-     4096,1000,1,1,1,1;]; %N,M,R,C,K,S
+3,64,224,224,3,1;
+64,128,224,224,3,1;
+128,128,112,112,3,1;
+128,128,112,112,3,1;
+128,256,56,56,3,1;
+256,256,56,56,3,1;
+256,256,56,56,3,1;
+256,512,28,28,3,1;
+512,512,28,28,3,1;
+512,512,28,28,3,1;
+512,512,14,14,3,1;
+512,512,14,14,3,1;
+512,512,14,14,3,1;
+512,4096,7,7,7,1;
+4096,4096,1,1,1,1;
+4096,1000,1,1,1,1;];%N,M,R,C,K,S
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%    Hardware Information  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 NUM_DSP=floor(6833/5);
@@ -61,8 +61,8 @@ for Tn=1:NUM_DSP
                     a_out=ceil(M/Tm)*ceil(R/Tr)*ceil(C/Tc);
                     Comp_cyc=ceil(M/Tm)*ceil(N/Tn)*ceil(R/Tr)*ceil(C/Tc)*(Tr*Tc*K*K);    %Cycle number
                     Data_access=a_in*B_in+a_wght*B_wght+a_out*B_out;        %Data size：B
-                    Comm_cyc=(Data_access/(1024^3)/DDR_BW)*(freq*1e6);
-                    BRAM_req=2*(B_in+B_wght+B_out)/(1024^2);
+                    Comm_cyc=(Data_access/(1000^3)/DDR_BW)*(freq*1e6);      %Cycle number
+                    BRAM_req=2*(B_in+B_wght+B_out)/(1000^2);
                     if(BRAM_req<=BRAM)
                         Exe_cyc=max(Comm_cyc,Comp_cyc);
                         if(Exe_cyc<Exe_min(1,i))
@@ -85,11 +85,19 @@ for Tn=1:NUM_DSP
         if((sum(Exe_min)<=Exe_total)&&(flag==1))
             Tm_final=Tm;
             Tn_final=Tn;
+            Exe_min_final=Exe_min;
             Exe_total=sum(Exe_min);
         end
     end
 end
 fprintf("Tm_final=%d \n",Tm_final);
 fprintf("Tn_final=%d \n",Tn_final);
-fprintf("Exe_total=%d \n",Exe_total);
+for i=1:NUM_layer
+    fprintf("Layer %d :%d Cycles \n",i,Exe_min_final(1,i));
+end
+
+fprintf("\nPreprocessing Layer: %d Cycles \n",Exe_min_final(1,1));
+fprintf("CNN Layers Total: %d Cycles \n",sum(Exe_min_final(1,2:end)));
+fprintf("Exe_total=%d Cycles\n\n",Exe_total);
+
 toc
